@@ -1,0 +1,30 @@
+body{
+    margin:0;
+    padding:0;
+    color:white;
+}
+
+.mainpage{
+    display: flex;
+    background-color: #003638;
+    justify-content: space-around;
+}
+
+.component{
+    list-style: none;
+    float:left;
+    padding-left:10px;
+}
+
+#map{
+    height: 500px;
+    width:700px;
+
+}
+
+.label img{
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    border:5px solid rgb(209, 209, 209);
+}
