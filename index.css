@@ -18,11 +18,13 @@ body{
 
 #map{
     height: 500px;
-    width:700px;
-
+    width: 500px;
+    border-radius: 50%;
+    border: 5px solid gray;
 }
 
-.label img{
+.listener-location img,
+.buskers-location img {
     height: 50px;
     width:50px;
     border-radius: 50%;
